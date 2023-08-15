@@ -1,0 +1,14 @@
+<div class="row">
+    <div *ngFor="let gif of gifs" class="cardContainer" >
+
+        <div class="card">
+            <img [src]="gif.images.downsized_medium.url" [alt]="gif.title">
+            <div class="cardTitle">
+                <p class="card-text">
+                    {{gif.title}}
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>

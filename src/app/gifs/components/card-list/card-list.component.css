@@ -1,0 +1,24 @@
+.card{
+   margin: 5px;
+}
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 10px;
+    width: 30%;
+    background-color: black;
+    border-radius: 10px;
+}
+.cardTitle{
+    background-color: black;
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom:10px;
+    font-weight: 700;
+   
+}
