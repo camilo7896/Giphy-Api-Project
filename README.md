@@ -1,27 +1,37 @@
-# GifAppV02
+# Proyecto Angular GiphyAPI: Búsqueda de Gifs
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+¡Bienvenido al repositorio del Proyecto Angular GiphyAPI! En este proyecto, hé desarrollado una emocionante aplicación web utilizando Angular que se conecta a la API de Giphy para buscar y mostrar gifs animados. Además, he implementado una función de filtrado de búsqueda y he creado un sidebar que registra las búsquedas anteriores del usuario, todo ello con persistencia a través del almacenamiento local.
 
-## Development server
+## Inicio Rápido
+1. Clona este repositorio:  'https://github.com/camilo7896/Giphy-Api-Project.git'
+2. Navega al directorio del proyecto:  'Giphy-Api-Project'
+3. Instala las dependencias: 'npm install'
+4. Inicia el servidor de desarrollo: 'ng serve o npm start'
+5. Abre tu navegador y ve a http://localhost:4200/ para explorar la aplicación. 
+   <img src='https://github.com/camilo7896/Giphy-Api-Project/assets/63164154/972e2eb5-b8c4-4aa1-a14d-272d546729bf' alt='img'/>
+   
+## Características Destacadas
+- Consumo de API Giphy: He integrado la API de Giphy para obtener una amplia variedad de gifs asombrosos y mostrarlos en la aplicación.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Filtro de Búsqueda: He implementado una función de búsqueda que permite a los usuarios buscar gifs utilizando palabras clave. Los resultados se actualizan en tiempo real a medida que el usuario escribe su consulta.
 
-## Code scaffolding
+- Sidebar de Búsquedas Anteriores: He creado un sidebar interactivo que registra las búsquedas anteriores realizadas por el usuario. Esto facilita el acceso a búsquedas anteriores y proporciona una experiencia de navegación más fluida.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Persistencia en LocalStorage: Toda la información relevante, incluyendo las búsquedas anteriores, se almacena en el localStorage del navegador. Esto significa que los datos se conservan incluso después de cerrar y volver a abrir la aplicación.
 
-## Build
+  ### Estructura del proyecto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+  <img src='https://github.com/camilo7896/Giphy-Api-Project/assets/63164154/b125460a-9b7f-4088-ae20-48517ef7b4cf' alt='img'/>
+### Contribuciones
+¡Estay abiertos a tus contribuciones y mejoras! Si deseas colaborar, sigue estos pasos:
 
-## Running unit tests
+1. Haz un fork de este repositorio.
+2. Crea una rama para tu función o corrección: git checkout -b feature/nueva-funcion
+3. Realiza tus cambios y realiza commits significativos.
+4. Envía tus cambios a tu repositorio: git push origin feature/nueva-funcion
+5. Crea una solicitud de extracción detallando tus cambios y mejoras.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+   ### Contacto
+Si tienes alguna pregunta, sugerencia o comentario, no dudes en ponerte en contacto con nosotros en cg082490@gmail.com.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+¡Esperamos que disfrutes explorando y contribuyendo al Proyecto Angular GiphyAPI!
